@@ -13,5 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
+    - name: Run make all
+      run: make all
     - name: Run make db
       run: make db
